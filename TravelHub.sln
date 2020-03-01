@@ -5,6 +5,16 @@ VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelHub.Web", "TravelHub.Web\TravelHub.Web.csproj", "{4B70119A-CD18-4EA9-B314-DDBB2FE2764B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelHub.Models", "TravelHub.Models\TravelHub.Models.csproj", "{4314C9F9-7803-43BC-B798-327191FAA396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelHub.API", "TravelHub.API\TravelHub.API.csproj", "{7AA0E611-08C6-4F54-8205-F873D1915344}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelHub.ViewModels", "TravelHub.ViewModels\TravelHub.ViewModels.csproj", "{00593A2F-D51D-40E3-BFD7-6081012C1EE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelHub.Repository", "TravelHub.Repository\TravelHub.Repository.csproj", "{78F5BF00-A954-43B3-9F6C-638A7A92C3BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelHub.Service", "TravelHub.Service\TravelHub.Service.csproj", "{92F827AE-EC49-4601-BE55-E853FBFAD328}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{4B70119A-CD18-4EA9-B314-DDBB2FE2764B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B70119A-CD18-4EA9-B314-DDBB2FE2764B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B70119A-CD18-4EA9-B314-DDBB2FE2764B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4314C9F9-7803-43BC-B798-327191FAA396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4314C9F9-7803-43BC-B798-327191FAA396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4314C9F9-7803-43BC-B798-327191FAA396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4314C9F9-7803-43BC-B798-327191FAA396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA0E611-08C6-4F54-8205-F873D1915344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA0E611-08C6-4F54-8205-F873D1915344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA0E611-08C6-4F54-8205-F873D1915344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA0E611-08C6-4F54-8205-F873D1915344}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00593A2F-D51D-40E3-BFD7-6081012C1EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00593A2F-D51D-40E3-BFD7-6081012C1EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00593A2F-D51D-40E3-BFD7-6081012C1EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00593A2F-D51D-40E3-BFD7-6081012C1EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F5BF00-A954-43B3-9F6C-638A7A92C3BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F5BF00-A954-43B3-9F6C-638A7A92C3BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F5BF00-A954-43B3-9F6C-638A7A92C3BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F5BF00-A954-43B3-9F6C-638A7A92C3BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F827AE-EC49-4601-BE55-E853FBFAD328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F827AE-EC49-4601-BE55-E853FBFAD328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F827AE-EC49-4601-BE55-E853FBFAD328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F827AE-EC49-4601-BE55-E853FBFAD328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
